@@ -46,7 +46,7 @@
 
   epel_rpm: "http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm"
   asmlib_rpm: "http://download.oracle.com/otn_software/asmlib/oracleasmlib-2.0.4-1.el6.x86_64.rpm"
-  ol6_repo_file: public-yum-ol6.repo
+  ol_repo_file: public-yum-ol6.repo
   repo_dir: /etc/yum.repos.d/
 
   disable_numa_boot: true                    # (true/false) Sets numa=off in grub.conf
